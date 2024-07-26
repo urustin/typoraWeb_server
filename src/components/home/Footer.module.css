@@ -1,0 +1,13 @@
+/* Footer.module.css */
+.footer {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-align: center;
+    margin-top: 40px;
+    padding: var(--spacing-small) 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    /* display: none; */
+    /* height: 40px; */
+}

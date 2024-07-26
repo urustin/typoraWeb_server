@@ -1,0 +1,15 @@
+/* PrivacyPolicy.module.css */
+.privacyPolicy {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--spacing-large);
+  }
+  
+  .privacyPolicy h1 {
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-large);
+  }
+  
+  .privacyPolicy p {
+    margin-bottom: var(--spacing-medium);
+  }

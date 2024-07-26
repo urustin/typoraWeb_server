@@ -1,0 +1,20 @@
+/* Login.module.css */
+.login {
+    text-align: center;
+    margin-top: var(--spacing-large);
+  }
+  
+.btn {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: var(--spacing-small) var(--spacing-medium);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+}

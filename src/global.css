@@ -1,0 +1,36 @@
+/* global.css */
+
+:root {
+    /* 색상 */
+    --primary-color: #333;
+    --secondary-color: #555;
+    --background-color: #fff;
+    --text-color: #333;
+    --link-color: #1a73e8;
+    --border-color: #ddd;
+  
+    /* 폰트 */
+    --font-family: Arial, sans-serif;
+    --font-size-base: 16px;
+    --font-size-small: 14px;
+    --font-size-large: 18px;
+  
+    /* 간격 */
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 2rem;
+  
+    /* 기타 */
+    --border-radius: 4px;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
