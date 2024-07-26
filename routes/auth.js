@@ -95,6 +95,8 @@ router.get('/logout', (req, res) => {
     });
   });
 });
+
+
 router.get('/verify', ensureAuthenticated, (req, res) => {
   console.log("verify Request 들어옴");
 
